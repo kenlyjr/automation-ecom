@@ -1,0 +1,15 @@
+{
+  "name": "automation-ecom",
+  "version": "1.0.0",
+  "description": "E2E Cypress Testing Automation",
+  "main": "test",
+  "repository": "https://github.com/kenlyjr/automation-ecom.git",
+  "author": "kenlyr <kenlyrojas96@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  }
+}
