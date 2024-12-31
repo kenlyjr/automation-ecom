@@ -25,6 +25,6 @@
 			"@data/*": ["./cypress/fixtures/data/*"]
 		}
 	},
-	"include": ["./cypress.config.ts", "./cypress.d.ts", "**/*.ts", "**/*.Page.ts"],
+	"include": ["./cypress.config.ts", "./cypress.d.ts", "**/*.ts", "**/*.Page.ts", "cypress/e2e/Kenly/register.cy.ts"],
 	"exclude": ["./node_modules", "**/*.js"]
 }

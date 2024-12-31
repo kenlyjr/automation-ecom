@@ -8,14 +8,6 @@
     "files.associations": {
 		"*.yml": "yaml"
 	},
-    "[yaml]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "keep",
-        "diffEditor.ignoreTrimWhitespace": false,
-        "editor.defaultFormatter": "kennylong.kubernetes-yaml-formatter",
-        "editor.formatOnSave": true
-    },
     "cypressHelper.menuItems": {
         "FindCustomCommandReferences": true,
         "FindStepDefinitionReferences": true,
@@ -37,7 +29,7 @@
 	"editor.formatOnSaveMode": "file", // required to format on save
 	"vs-code-prettier-eslint.prettierLast": false, // set as "true" to run 'prettier' last not first
     "editor.lineHeight": 20,
-    "editor.defaultColorDecorators": true,
+    "editor.defaultColorDecorators": "auto",
 	"editor.insertSpaces": false,
 	"editor.tabSize": 4,
     "editor.detectIndentation": true,
@@ -99,5 +91,6 @@
     },
     "cSpell.words": [
         "Kenly"
-    ]
+    ],
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }

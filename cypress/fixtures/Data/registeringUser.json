@@ -1,0 +1,16 @@
+{
+	"domains": {
+		"baseURL": "automationexercise.com"
+	},
+	"endpoints": {
+		"login": "/login",
+		"signup":"/signup"
+	},
+	"user": {
+		"name": "Kenly",
+		"email": "Kenlyrojas9@gmail.com"
+	},
+	"text": {
+		"accountLabel": "Enter Account Information"
+	}
+}

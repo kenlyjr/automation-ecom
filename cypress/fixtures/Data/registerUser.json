@@ -1,0 +1,30 @@
+{
+	"username": {
+		"input": "input[data-qa='signup-name']",
+		"data": {
+			"valid": "Kenly"
+		}
+	},
+	"email": {
+		"input": "input[data-qa='signup-email']",
+		"data": {
+			"validEmail": "kenly1@gmail.com"
+		}
+	},
+	"currentAddress": {
+		"input": "#currentAddress",
+		"data": {
+			"valid": "I still live in Colombia"
+		}
+	},
+	"permanentAddress": {
+		"input": "#permanentAddress",
+		"data":{
+			"valid": "I'll still live in Colombia the rest of the year"
+		}
+	},
+
+	"submit": {
+		"input": "#submit"
+	}
+}
